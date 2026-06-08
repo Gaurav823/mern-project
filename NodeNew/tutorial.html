@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<!-- <h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript can change HTML content.</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button> -->
+
+<!-- <h2>What Can JavaScript Do?</h2>
+<p>JavaScript can change HTML attribute values.</p>
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button> -->
+
+
+<!-- <h2>What Can JavaScript Do?</h2>
+<p id="demo">JavaScript can change the style of an HTML element.</p>
+<button type="button" onclick="document.getElementById('demo').style.fontSize='35px'">Click Me!</button> -->
+
+<!-- <script>
+document.getElementById("demo").innerHTML = "My First JavaScript";
+</script> -->
+
+<!-- <h2>Demo JavaScript in Body</h2>
+<p id="demo">A Paragraph.</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script> -->
+
+<!-- <script src="myScript.js"></script> -->
+
+<!-- <script>
+document.write(5 + 6);
+</script> -->
+
+<!-- <script>
+    window.alert(5 + 6);
+</script> -->
+
+<!-- <h2>The window.print() Method</h2>
+<p>Click the button to print the current page.</p>
+<button onclick="window.print()">Print this page</button> -->
+
+<!-- var	Declares a variable
+let	Declares a block variable
+const	Declares a block constant
+if	Marks a block of statements to be executed on a condition
+switch	Marks a block of statements to be executed in different cases
+for	Marks a block of statements to be executed in a loop
+function	Declares a function
+return	Exits a function
+try	Implements error handling to a block of statements -->
+
+<!-- The var keyword was used in all JavaScript code from 1995 to 2015.
+The let and const keywords were added to JavaScript in 2015.
+The var keyword should only be used in code written for older browsers. -->
+
+<!-- When to Use var, let, or const?
+1. Always declare variables
+2. Always use const if the value should not be changed
+3. Always use const if the type should not be changed (Arrays and Objects)
+4. Only use let if you can't use const
+5. Only use var if you MUST support old browsers. -->
+
+
+<!-- Difference Between var, let and const
+        Scope	Redeclare	Reassign	Hoisted	    Binds this
+var	    No	    Yes	        Yes	           Yes	    Yes
+let	    Yes	    No	        Yes	           No	    No
+const	Yes	    No	        No	           No	    No -->
+
+<script>
+    // const cars = ["Saab", "Volvo", "BMW"];
+    // cars.push("Audi");
+    // console.log(cars.length);
+
+    // const car = {type:"Fiat", model:"500", color:"white"};
+    // car.color = "red";
+    
+    // const date = new Date("2022-03-25");
+    // console.log(date);
+
+    // let y = 123e5;    // 12300000
+    // let z = 123e-5;   // 0.00123
+
+    // function toCelsius(f) {
+    //     return (5/9) * (f-32);
+    // }
+
+    // let value = toCelsius(77);
+    // console.log(value);
+
+    // const person = {
+    //     firstName: "John",
+    //     lastName: "Doe",
+    //     id: 5566,
+    //     fullName: function () {
+    //         // return this.firstName + " " + this.lastName;
+    //         return (this.firstName + " " + this.lastName).toUpperCase();
+    //     }
+    // };
+    // console.log(person.fullName());
+
+    // delete person.id;
+    // let text = "";
+    // for (let x in person) {
+    //     text += person[x] + " ";
+    // };
+    // console.log(text);
+    
+    // const myArray = Object.values(person);
+    // console.log(myArray);
+
+    // const fruits = {Bananas:300, Oranges:200, Apples:500};
+
+    // let text = "";
+    // for (let [fruit, value] of Object.entries(fruits)) {
+    // text += fruit + ": " + value + "<br>";
+    // }
+    // let myString = JSON.stringify(fruits);
+    // console.log(myString);
+    
+    // function Person(first, last, age, eye) {
+    //     this.firstName = first;
+    //     this.lastName = last;
+    //     this.age = age;
+    //     this.eyeColor = eye;
+    // }
+    // // Create 2 Person objects
+    // const myFather = new Person("John", "Doe", 50, "blue");
+    // const myMother = new Person("Sally", "Rally", 48, "green");
+    // // Add a Name Method
+    // myMother.changeName = function (name) {
+    //     this.lastName = name;
+    // }
+    // // Change Name
+    // myMother.changeName("Doe");
+    // // Display fullName
+    // document.getElementById("demo").innerHTML = "My mother's last name is " + myMother.lastName; 
+
+    ////////////Events////////////////
+    // function displayDate() {
+    //     document.getElementById("demo").innerHTML = Date();
+    // }
+
+    // Event	Description
+    // onchange	An HTML element has been changed
+    // onclick	The user clicks an HTML element
+    // onmouseover	The user moves the mouse over an HTML element
+    // onmouseout	The user moves the mouse away from an HTML element
+    // onkeydown	The user pushes a keyboard key
+    // onload	The browser has finished loading the page
+
+    
+</script>
+    <!-- <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+    <p id="demo"></p> -->
+
+    <!-- <button onclick="this.innerHTML=Date()">The time is?</button> -->
+
+    <!-- <button onclick="displayDate()">The time is?</button>
+    <p id="demo"></p> -->
+</body>
+</html>
